@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/wuyongmin/Desktop/News/app/build/intermediates/res/merged/debug/layout/acitivy_browse_news.xml",
+        "source": "/Users/wuyongmin/Desktop/News/app/src/main/res/layout/acitivy_browse_news.xml"
+    },
+    {
+        "merged": "/Users/wuyongmin/Desktop/News/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/wuyongmin/Desktop/News/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/wuyongmin/Desktop/News/app/build/intermediates/res/merged/debug/layout/news_item.xml",
+        "source": "/Users/wuyongmin/Desktop/News/app/src/main/res/layout/news_item.xml"
+    }
+]

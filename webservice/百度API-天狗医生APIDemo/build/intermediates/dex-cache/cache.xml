@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/wuyongmin/Desktop/News/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f5b787ffc0fdc348494030d23877a65c84b97e21">
+        <dex dex="/Users/wuyongmin/Desktop/News/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_70483339bd4650b151d2dd77d19e851c92841017.jar" />
+    </item>
+    <item
+        jar="/Users/wuyongmin/Development/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/wuyongmin/Desktop/News/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0_d4ca3c4618f1d5f2a9a90a48a910b1959c218586.jar" />
+    </item>
+    <item
+        jar="/Users/wuyongmin/Desktop/News/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6e43303985105862767753ce46c4ad9b05eb419d">
+        <dex dex="/Users/wuyongmin/Desktop/News/app/build/intermediates/pre-dexed/debug/instant-run_6f7a49d1ac61ca91a6ae099b1f3dc5dbbefa3312.jar" />
+    </item>
+
+</items>
