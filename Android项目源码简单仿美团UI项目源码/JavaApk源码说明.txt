@@ -1,0 +1,19 @@
+本项目是一个基于安卓的仿美团安卓客户端UI项目的源码，实现仿照的页面有无密码快捷登陆、个人中心页面、发现页面、app首页、团购页面、商家列表页面等，但是毕竟遗憾的是很多页面效果没有实现，不过www.javaapk.com之前介绍过一个仿大众点评的项目源码（http://www.javaapk.com/source/7456.html），仿照的页面也比较多可以两个项目结合着来分析，www.javaapk.com还介绍过很多仿美团客户端的控件例子，比如城市选择、动画加载、分类选择、下拉菜单能例子。感兴趣的可以在www.javaapk.com搜索“美团就可以找到。”
+                ╔═══════════════╗
+                ║       安卓源码服务专家       ║
+  ╔══════╣───────────────╠══════╗
+  ║            ║    http://www.javaapk.com    ║            ║
+  ║            ╚═══════════════╝            ║
+　║                                                          ║
+　║JavaApk声明：                                             ║
+  ║   1) 程序如果跑不起来需要自调，javaapk做船但不帮您扬帆。 ║
+  ║   2) 免费例子大全http://www.javaapk.com/demo不定期更新。 ║
+  ║   3) 如有版权争议欢迎随时联系javaapk。                   ║
+  ║   4) 源码仅限学习交流，切勿移作他用。                    ║
+  ║   5) 转载请保留本源码说明，赠人玫瑰，手留余香。          ║
+　║                                                          ║
+  ║           JavaApk —— 安卓源码服务专家                  ║
+  ║           联系方式 :QQ18805870  javaapk@qq.com           ║
+  ║    ╔═══════════════════════╗    ║
+  ╚══╣    安卓源码专业站 http://www.JavaApk.com     ╠══╝
+        ╚═══════════════════════╝
