@@ -19,6 +19,7 @@ public class LoginAdapter extends BaseAdapter {
 
     private Context context;
     private List<LoginModel> newsList;
+    ViewHolder viewHolder = new ViewHolder();
 
     public LoginAdapter(Context context, List<LoginModel> newsList) {
         this.context = context;
@@ -45,15 +46,31 @@ public class LoginAdapter extends BaseAdapter {
 
         if (convertView == null) {
             convertView = LayoutInflater.from(context).inflate(R.layout.login_items, null);
+
+
+            viewHolder.tvTitle = (TextView) convertView.findViewById(R.id.tvTitle);
+            viewHolder.tvDesc = (TextView) convertView.findViewById(R.id.tvDesc);
+
+            convertView.setTag(viewHolder);
+        }
+        else
+        {
+            viewHolder = (ViewHolder) convertView.getTag();
         }
 
-        TextView tvTitle = (TextView) convertView.findViewById(R.id.tvTitle);
-        TextView tvDesc = (TextView) convertView.findViewById(R.id.tvDesc);
-
         LoginModel news = newsList.get(position);
-        tvTitle.setText(news.getUserName());
-        tvDesc.setText(news.getTrueName());
+
+        viewHolder.tvTitle.setText(news.getUserName());
+        viewHolder.tvDesc.setText(news.getTrueName());
+
         return convertView;
+    }
+
+
+    private static class ViewHolder {
+
+        TextView tvTitle;
+        TextView tvDesc;
     }
 }
 
