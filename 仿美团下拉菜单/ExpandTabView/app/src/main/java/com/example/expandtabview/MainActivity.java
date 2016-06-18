@@ -44,16 +44,16 @@ public class MainActivity extends Activity {
 	private void initVaule() {
 		
 		mViewArray.add(viewLeft);
-//		mViewArray.add(viewMiddle);
-//		mViewArray.add(viewRight);
+		mViewArray.add(viewMiddle);
+		mViewArray.add(viewRight);
 		ArrayList<String> mTextArray = new ArrayList<String>();
 		mTextArray.add("距离");
-//		mTextArray.add("区域");
-//		mTextArray.add("距离");
+		mTextArray.add("区域");
+		mTextArray.add("距离");
 		expandTabView.setValue(mTextArray, mViewArray);
-//		expandTabView.setTitle(viewLeft.getShowText(), 0);
-//		expandTabView.setTitle(viewMiddle.getShowText(), 1);
-//		expandTabView.setTitle(viewRight.getShowText(), 2);
+		expandTabView.setTitle(viewLeft.getShowText(), 0);
+		expandTabView.setTitle(viewMiddle.getShowText(), 1);
+		expandTabView.setTitle(viewRight.getShowText(), 2);
 		
 	}
 
